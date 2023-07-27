@@ -58,7 +58,7 @@
 
 <main>
 	{#if user}
-		<Chatroom user={user} logout={logout}>
+		<Chatroom user={user} logout={logout}/>
 	{:else}
 		<div class="login-form">
 			<button on:click={login}>
